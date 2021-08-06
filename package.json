@@ -4,7 +4,7 @@
   "description": "Simple, scalable state management.",
   "main": "lib/mobx.js",
   "umd:main": "lib/mobx.umd.js",
-  "module": "lib/mobx.module.js",
+  "module": "lib/mobx.js",
   "browser": {
     "./lib/mobx.js": "./lib/mobx.js",
     "./lib/mobx.module.js": "./lib/mobx.module.js"
@@ -124,10 +124,5 @@
     "watchPathIgnorePatterns": [
       "<rootDir>/node_modules/"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   }
 }

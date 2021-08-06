@@ -25,14 +25,14 @@ module.exports = {
         setTimeout: "readable",
         clearTimeout: "readable",
         module: "writable"
-    },
-    overrides: {
-        files: ["**/*.ts"],
-        rules: {
-            // Things that don't play nicely with TS:
-            "require-yield": "off",
-            "no-unused-vars": "off",
-            "no-extra-semi": "off"
-        }
     }
+    // overrides: {
+    //     files: ["**/*.ts"],
+    //     rules: {
+    //         // Things that don't play nicely with TS:
+    //         "require-yield": "off",
+    //         "no-unused-vars": "off",
+    //         "no-extra-semi": "off"
+    //     }
+    // }
 }
